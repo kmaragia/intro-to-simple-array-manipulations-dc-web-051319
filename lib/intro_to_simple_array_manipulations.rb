@@ -1,51 +1,47 @@
-def using_push(array,str)
-  return array.push(str)
-end
-
-def using_unshift(array,str)
-  return array.unshift(str)
-end
-
-def using_pop(array)
-  #array.length -= 1
-  return array.pop
-end
-
-def pop_with_args(array)
-  #array.length = 2
-  return array.pop(2)
-end
-
-def using_shift(array)
-  #array.length -= 1
-  return array.shift
-end
-
-def shift_with_args(array)
-  return array.shift(2)
-end
-
-def using_concat(array1 , array2)
-  return array1.concat(array2)
-end
-
-
-def using_insert(array, element)
-  return array.insert(4,element)
-end
-
-def using_uniq(array)
-  return array.uniq
-end
-
-def using_flatten(array)
-  return array.flatten
-end
-
-def using_delete(array,str)
-  return array.delete(str)
-end
-def using_delete_at(array, int)
-  return array.delete_at(int)
+def using_push(arr,string)
+  return arr.push(string)
 end
  
+def using_unshift(arr,string)
+  return arr.unshift(string)
+end
+
+def using_pop(arr)
+  return arr.pop
+end
+
+def pop_with_args(arr)
+  arr.pop(2)
+end
+
+def using_shift(arr)
+  return arr.shift
+end
+
+def shift_with_args(arr)
+  return arr.shift(2)
+end
+
+def using_concat(arr1,arr2)
+  return arr1.concat(arr2)
+end
+
+def using_insert(arr,element)
+  return arr.insert(4,element)
+end
+
+def using_uniq(arr)
+  return arr.uniq
+end
+
+def using_flatten(arr)
+  return arr.flatten
+end
+
+def using_delete(arr,string)
+  return arr.delete(string)
+end
+
+def using_delete_at(arr,int)
+  return arr.delete_at(int)
+end
